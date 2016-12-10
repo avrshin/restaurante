@@ -14,3 +14,8 @@ Simple order management system for a restaurant
  * Factory Pattern
  * Observer
  * Iterator
+
+* Files
+ * /Restaurante/src/restaurante - source files
+ * /banco - database files
+ * /documentacao - documentation files
