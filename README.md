@@ -1,5 +1,5 @@
 # restaurant
-Simple order management system for a restaurant
+Simple order management system for a restaurant made with JavaFX
 
 * Language
  * JavaFX
