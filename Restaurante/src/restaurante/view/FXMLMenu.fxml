@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurante.controller.ControllerMenu">
+   <top>
+      <BorderPane BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <center>
+            <Label fx:id="labelNomeSecao" text="Menu" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+            </Label>
+         </center>
+      </BorderPane>
+   </top>
+   <center>
+      <VBox alignment="TOP_CENTER" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonGerenciarFuncionario" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarFuncionario" text="Gerenciar Funcionario" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarMesa" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarMesa" text="Gerenciar Mesa" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarSalao" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarSalao" text="Gerenciar Salao" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarUsuario" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarUsuario" text="Gerenciar Usuario" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarBebida" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarBebida" text="Gerenciar Bebida" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarPrato" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarPrato" text="Gerenciar Prato" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonGerenciarIngrediente" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonGerenciarIngrediente" text="Gerenciar Ingrediente" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonNovoPedido" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonNovoPedido" text="Novo Pedido" VBox.vgrow="ALWAYS" />
+            <Button fx:id="buttonFecharPedido" alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#actionButtonFecharPedido" text="Fechar Pedido" VBox.vgrow="ALWAYS" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
